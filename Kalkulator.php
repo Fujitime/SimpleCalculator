@@ -87,19 +87,19 @@
                         echo "KAMU BELUM MEMILIH METHOD!";
                         break;
                     case "tambah +":
-                        echo "$result1 + $result2";
+                        echo $result1 + $result2;
                         break;
                     case "kali x":
-                        echo "$result1 * $result2";
+                        echo $result1 * $result2;
                         break;
                     case "kurang -":
-                        echo "$result1 - $result2";
+                        echo $result1 - $result2;
                         break;
                     case "bagi /":
-                        echo "$result1 / $result2";
+                        echo $result1 / $result2;
                         break;
                     case "sisa bagi %":
-                        echo "$result1 % $result2";
+                        echo $result1 % $result2;
                         break;
                 }
             }
